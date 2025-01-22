@@ -1,6 +1,6 @@
 const {test,expect}=require('@playwright/test');
 const {POManager}=require('../pageObject/POManager');
-//cnst dataset=(JSON.parse(JSON.stringify(require('../utils/login.json'))));
+//cnstt dataset=(JSON.parse(JSON.stringify(require('../utils/login.json'))));
 
 test('valid LogIn',async({page})=>
 {
