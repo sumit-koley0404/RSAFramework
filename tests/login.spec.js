@@ -2,7 +2,7 @@ const {test,expect}=require('@playwright/test');
 const {POManager}=require('../pageObject/POManager');
 //cnsttt dataset=(JSON.parse(JSON.stringify(require('../utils/login.json'))));
 
-test('valid LogIn',async({page})=>
+test('@smoke valid LogIn',async({page})=>
 {
     
     const username ="sumitkoley727@gmail.com";
