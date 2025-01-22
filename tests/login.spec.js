@@ -1,6 +1,6 @@
 const {test,expect}=require('@playwright/test');
 const {POManager}=require('../pageObject/POManager');
-//cnstt dataset=(JSON.parse(JSON.stringify(require('../utils/login.json'))));
+//cnsttt dataset=(JSON.parse(JSON.stringify(require('../utils/login.json'))));
 
 test('valid LogIn',async({page})=>
 {
@@ -16,7 +16,7 @@ test('valid LogIn',async({page})=>
 test('Invalid LogIn',async({page})=>
 {
     const username ="sumitkoley727@gmail.comm";
-    const password ="Sumit@123";
+    const password ="Sumit@1233";
     const invalidLoginMessage =page.locator("div[aria-label='Incorrect email or password.']");
     const poManager = new POManager(page);
     const loginPage = poManager.getLoginPage();
