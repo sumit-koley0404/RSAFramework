@@ -5,5 +5,6 @@ class Registration
        this.page = page;
 
     }
+    
 }
 module.exports={Registration};
