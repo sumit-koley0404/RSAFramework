@@ -1,11 +1,10 @@
 [
-{
-    "firstName":"Test",
-    "lastName":"Test",
-    "email":"test1@mailinator",
-    "mobileNo":"9999999999",
-    "userPassword":"Test@123456",
-    "confirmPassword":"Test@123456",
-    "successMessage":"Account Created Successfully"
-}
-]
+    {
+        "firstname":"Test",
+        "lastname":"Test",
+        "email":"test1@mailinator",
+        "mobileno":"9999999999",
+        "userpassword":"Test@123456",
+        "confirmpassword":"Test@123456"
+    }
+    ]

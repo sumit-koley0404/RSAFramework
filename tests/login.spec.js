@@ -9,7 +9,7 @@ test(`@smoke valid LogIn for ${credentials.username}`,async({page})=>
     const textContent = page.locator("div[class='left mt-1'] h3");
     const poManager = new POManager(page);
     const loginPage = poManager.getLoginPage(); 
-    loginPage.LogIn(credentials.username,credentials.password);
+    await loginPage.LogIn(credentials.username,credentials.password);
     await expect(textContent).toHaveText("Automation");
 });
 test(`@smoke Invalid LogIn for ${credentials.username}`,async({page})=>
